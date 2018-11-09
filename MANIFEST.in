@@ -1,0 +1,2 @@
+include versioneer.py
+include src/custref_to_sql/_version.py
