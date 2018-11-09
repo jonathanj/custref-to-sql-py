@@ -23,7 +23,27 @@ Then install this script:
 
    pip install git+https://github.com/jonathanj/custref-to-sql-py.git
 
+You can ensure that it was successful and that the scripts are installed to your
+system ``PATH``:
+
+.. code:: shell
+
+   custref-to-sql --help
+
+The command-line help should be printed out.
+
+
+Upgrading
+---------
+
+To install new versions of this script at a later stage use:
+
+.. code:: shell
+
+   pip install --upgrade git+https://github.com/jonathanj/custref-to-sql-py.git
+
 .. _Python 2.7: https://www.python.org/downloads/release/python-2715/
+
 
 Usage
 -----
