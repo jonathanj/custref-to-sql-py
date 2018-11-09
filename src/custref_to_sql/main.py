@@ -428,7 +428,8 @@ def parse_command_line():
     return parser.parse_args()
 
 
-def main(args):
+def main():
+    args = parse_command_line()
     reader = csv.reader(args.input_file, delimiter=';')
     state, action = {}, STATES['__initial__']
     while reader:
@@ -456,5 +457,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    args = parse_command_line()
-    main(args)
+    main()

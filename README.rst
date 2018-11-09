@@ -11,6 +11,12 @@ Installation
 Install `Python 2.7`_. Make sure to have it adjust your system ``PATH`` so that
 you can run ``python`` and ``pip`` from the command-line.
 
+Make sure ``pip`` is the latest version:
+
+.. code:: shell
+
+   pip install -U pip
+
 Then install this script:
 
 .. code:: shell
